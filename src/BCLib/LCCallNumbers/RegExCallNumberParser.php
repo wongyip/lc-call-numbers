@@ -39,14 +39,14 @@ class RegExCallNumberParser implements CallNumberParser
           \.? \s*
               ([A-Z])      # cutter letter
               \s*
-              (\d+[\w|\Z]|\d)?        # cutter numbers
+              (\d+[\w]|\d)?        # cutter numbers, original (\d+[\w|\Z]|\d)? casue error in PHP7.3
         )?
         \s*
         (?:               # optional cutter
           \.? \s*
               ([A-Z])      # cutter letter
               \s*
-              (\d+[\w|\Z]|\d)?        # cutter numbers
+              (\d+[\w]|\d)?        # cutter numbers, original (\d+[\w|\Z]|\d)? casue error in PHP7.3
         )?
         (\s+.+?)?        # everthing else
             \s*$
