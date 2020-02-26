@@ -1,9 +1,9 @@
 {
-    "name": "bclibraries/lc-call-numbers",
+    "name": "wongyip/lc-call-numbers",
     "description": "Parses and normalizes Library of Congress call numbers",
     "type": "library",
     "minimum-stability": "dev",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ben Florin",
