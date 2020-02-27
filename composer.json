@@ -8,6 +8,11 @@
         {
             "name": "Ben Florin",
             "email": "benjamin.florin@bc.edu"
+        },
+        {
+            "name": "Wongyip",
+            "email": "wongyip@outlook.com",
+            "homepage": "https://github.com/wongyip"
         }
     ],
     "require": {

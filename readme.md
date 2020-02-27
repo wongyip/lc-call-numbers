@@ -3,5 +3,4 @@ A convenience class and a parser for Library of Congress call numbers, including
 Very not ready for public consumption.
 
 ## License
-
-See `MIT-LICENSE.txt`
+See the [LICENSE](LICENSE) file.
